@@ -4,7 +4,7 @@ while (i < arr.Length)
 {
     if (arr[i] % 2 == 0)
     {
-        System.Console.Write($"{arr[i]} "); // {} для того чтобы вывел массив а не текст
+        System.Console.Write($"{arr[i]} "); // $"{}" для того чтобы вывел массив а не текст
     }
     i = i + 1;
 
